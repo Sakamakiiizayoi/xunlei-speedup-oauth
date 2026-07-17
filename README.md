@@ -2,7 +2,7 @@
 
 通过迅雷网页 OAuth 登录凭据，以纯 Shell 方式调用迅雷快鸟宽带提速/试用接口。
 
-不需要运行 Chrome、Playwright、Xvfb 或 VNC。脚本会自动完成：
+脚本会自动完成：
 
 ```text
 账号中心 Refresh Token
