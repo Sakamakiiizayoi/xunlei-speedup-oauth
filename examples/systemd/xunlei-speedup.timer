@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Xunlei Speedup OAuth every day
+
+[Timer]
+OnCalendar=*-*-* 03:15:00
+Persistent=true
+RandomizedDelaySec=5m
+Unit=xunlei-speedup.service
+
+[Install]
+WantedBy=timers.target

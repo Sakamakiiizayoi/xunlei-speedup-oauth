@@ -1,0 +1,3 @@
+# 每天 03:15 运行。请根据实际试用额度重置时间调整。
+# 使用 root 的状态文件时，需要显式设置 HOME=/root。
+15 3 * * * HOME=/root /usr/local/bin/xunlei-speedup >>/var/log/xunlei-speedup.log 2>&1

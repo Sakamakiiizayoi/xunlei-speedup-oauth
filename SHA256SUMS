@@ -1,0 +1,8 @@
+31a12b08598b100163c7da73d9dc5125da25c452029e8569fc94c0e7e1988bd6  ./.gitignore
+d160b3988687e05ea517d6f525ba30a6f3ab51ea6d7c3535eb076e651621cfbe  ./LICENSE
+19b0a6f5889da4863b81a8df5f4a0b4e776f710243245f7aff2ec8930772864e  ./README.md
+2bb6b4a86f872c0f75e7c758feca10b184f1bd51d30092ac22bb838a7c7faf1e  ./SECURITY.md
+d487ac5a8959a54df3204b223ef4497588fb747cded4ab3dde831d20fe5036a6  ./examples/cron.example
+e4e43ce49223024b8b006127d6c7476deb15c022734fe4aeb6b3c93a1b490d9b  ./examples/systemd/xunlei-speedup.service
+ec3de92a36a5406180898021aead88c6b8d7e2f3a2ffd15bb83fa53b2a5047b3  ./examples/systemd/xunlei-speedup.timer
+c3f6895d2898241d0527b9d3ad8b9698a7bb0b4b491389c332e418e49a9defcc  ./xunlei-speedup.sh

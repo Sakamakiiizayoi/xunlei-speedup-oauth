@@ -1,0 +1,16 @@
+[Unit]
+Description=Xunlei Speedup OAuth daily trial
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+Environment=HOME=/root
+ExecStart=/usr/local/bin/xunlei-speedup
+
+# 基础加固；状态目录位于 /root/.local/state，因此允许访问 HOME。
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/root/.local/state/xunlei-speedup-oauth /var/log
